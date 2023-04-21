@@ -1,0 +1,404 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Office\\Micro-FrontEnd\\BookStore - MFE2\\Backend\\BookStore_Auth_Backend_API\\BookStore_Auth_Backend_API\\BookStore_Auth_Backend_API.csproj": {}
+  },
+  "projects": {
+    "E:\\Office\\Micro-FrontEnd\\BookStore - MFE2\\Backend\\BookStore_Auth_Backend_API\\BookStore_Auth_Backend_API\\BookStore_Auth_Backend_API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Office\\Micro-FrontEnd\\BookStore - MFE2\\Backend\\BookStore_Auth_Backend_API\\BookStore_Auth_Backend_API\\BookStore_Auth_Backend_API.csproj",
+        "projectName": "BookStore_Auth_Backend_API",
+        "projectPath": "E:\\Office\\Micro-FrontEnd\\BookStore - MFE2\\Backend\\BookStore_Auth_Backend_API\\BookStore_Auth_Backend_API\\BookStore_Auth_Backend_API.csproj",
+        "packagesPath": "C:\\Users\\Dotnet.CSPC394\\.nuget\\packages\\",
+        "outputPath": "E:\\Office\\Micro-FrontEnd\\BookStore - MFE2\\Backend\\BookStore_Auth_Backend_API\\BookStore_Auth_Backend_API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Dotnet.CSPC394\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\Office\\Micro-FrontEnd\\BookStore - MFE2\\Backend\\BookStore_Auth_Backend_API\\BookStore_Auth_Backend_API_DataAccess\\BookStore_Auth_Backend_API_DataAccess.csproj": {
+                "projectPath": "E:\\Office\\Micro-FrontEnd\\BookStore - MFE2\\Backend\\BookStore_Auth_Backend_API\\BookStore_Auth_Backend_API_DataAccess\\BookStore_Auth_Backend_API_DataAccess.csproj"
+              },
+              "E:\\Office\\Micro-FrontEnd\\BookStore - MFE2\\Backend\\BookStore_Auth_Backend_API\\BookStore_Auth_Backend_API_Models\\BookStore_Auth_Backend_API_Models.csproj": {
+                "projectPath": "E:\\Office\\Micro-FrontEnd\\BookStore - MFE2\\Backend\\BookStore_Auth_Backend_API\\BookStore_Auth_Backend_API_Models\\BookStore_Auth_Backend_API_Models.csproj"
+              },
+              "E:\\Office\\Micro-FrontEnd\\BookStore - MFE2\\Backend\\BookStore_Auth_Backend_API\\BookStore_Auth_Backend_API_Utility\\BookStore_Auth_Backend_API_Utility.csproj": {
+                "projectPath": "E:\\Office\\Micro-FrontEnd\\BookStore - MFE2\\Backend\\BookStore_Auth_Backend_API\\BookStore_Auth_Backend_API_Utility\\BookStore_Auth_Backend_API_Utility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Office\\Micro-FrontEnd\\BookStore - MFE2\\Backend\\BookStore_Auth_Backend_API\\BookStore_Auth_Backend_API_DataAccess\\BookStore_Auth_Backend_API_DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Office\\Micro-FrontEnd\\BookStore - MFE2\\Backend\\BookStore_Auth_Backend_API\\BookStore_Auth_Backend_API_DataAccess\\BookStore_Auth_Backend_API_DataAccess.csproj",
+        "projectName": "BookStore_Auth_Backend_API_DataAccess",
+        "projectPath": "E:\\Office\\Micro-FrontEnd\\BookStore - MFE2\\Backend\\BookStore_Auth_Backend_API\\BookStore_Auth_Backend_API_DataAccess\\BookStore_Auth_Backend_API_DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Dotnet.CSPC394\\.nuget\\packages\\",
+        "outputPath": "E:\\Office\\Micro-FrontEnd\\BookStore - MFE2\\Backend\\BookStore_Auth_Backend_API\\BookStore_Auth_Backend_API_DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Dotnet.CSPC394\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\Office\\Micro-FrontEnd\\BookStore - MFE2\\Backend\\BookStore_Auth_Backend_API\\BookStore_Auth_Backend_API_Models\\BookStore_Auth_Backend_API_Models.csproj": {
+                "projectPath": "E:\\Office\\Micro-FrontEnd\\BookStore - MFE2\\Backend\\BookStore_Auth_Backend_API\\BookStore_Auth_Backend_API_Models\\BookStore_Auth_Backend_API_Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Cryptography.Internal": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.AspNetCore.DataProtection": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Office\\Micro-FrontEnd\\BookStore - MFE2\\Backend\\BookStore_Auth_Backend_API\\BookStore_Auth_Backend_API_Models\\BookStore_Auth_Backend_API_Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Office\\Micro-FrontEnd\\BookStore - MFE2\\Backend\\BookStore_Auth_Backend_API\\BookStore_Auth_Backend_API_Models\\BookStore_Auth_Backend_API_Models.csproj",
+        "projectName": "BookStore_Auth_Backend_API_Models",
+        "projectPath": "E:\\Office\\Micro-FrontEnd\\BookStore - MFE2\\Backend\\BookStore_Auth_Backend_API\\BookStore_Auth_Backend_API_Models\\BookStore_Auth_Backend_API_Models.csproj",
+        "packagesPath": "C:\\Users\\Dotnet.CSPC394\\.nuget\\packages\\",
+        "outputPath": "E:\\Office\\Micro-FrontEnd\\BookStore - MFE2\\Backend\\BookStore_Auth_Backend_API\\BookStore_Auth_Backend_API_Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Dotnet.CSPC394\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.16, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Office\\Micro-FrontEnd\\BookStore - MFE2\\Backend\\BookStore_Auth_Backend_API\\BookStore_Auth_Backend_API_Utility\\BookStore_Auth_Backend_API_Utility.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Office\\Micro-FrontEnd\\BookStore - MFE2\\Backend\\BookStore_Auth_Backend_API\\BookStore_Auth_Backend_API_Utility\\BookStore_Auth_Backend_API_Utility.csproj",
+        "projectName": "BookStore_Auth_Backend_API_Utility",
+        "projectPath": "E:\\Office\\Micro-FrontEnd\\BookStore - MFE2\\Backend\\BookStore_Auth_Backend_API\\BookStore_Auth_Backend_API_Utility\\BookStore_Auth_Backend_API_Utility.csproj",
+        "packagesPath": "C:\\Users\\Dotnet.CSPC394\\.nuget\\packages\\",
+        "outputPath": "E:\\Office\\Micro-FrontEnd\\BookStore - MFE2\\Backend\\BookStore_Auth_Backend_API\\BookStore_Auth_Backend_API_Utility\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Dotnet.CSPC394\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.16, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

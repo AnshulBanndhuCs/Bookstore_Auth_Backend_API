@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "9r2lRVintjAxc1YTxJuSr74KQwEnHh1g/qyZnLi/eBk=",
+  "Source": "BookStore_Auth_Backend_API",
+  "BasePath": "_content/BookStore_Auth_Backend_API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
